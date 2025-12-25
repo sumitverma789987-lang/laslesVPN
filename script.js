@@ -51,6 +51,7 @@ $(document).ready(function () {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2
+                    
                 }
             },
             {
@@ -76,12 +77,13 @@ $(document).ready(function () {
                 breakpoint: 1024,
                 settings: {
                     dots: true
+                    
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    dots: false
+                    dots: true
                 }
             }
         ]
